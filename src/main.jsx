@@ -4,6 +4,7 @@ import FormCadastro from './Componentes/FormCadastro'
 import Quantidade from './Componentes/Quantidade'
 import FormPreferencias from './Componentes/PreferenciaForm'
 import FormConfiguracoes from './Componentes/ConfiguracoesForm'
+import CadastrodeProdutos from './Componentes/Cadastros'
 
 
 createRoot(document.getElementById('root')).render(
@@ -12,5 +13,6 @@ createRoot(document.getElementById('root')).render(
     <FormCadastro />
     <FormPreferencias />
     <FormConfiguracoes />
+    <CadastrodeProdutos />
   </StrictMode>,
 )
