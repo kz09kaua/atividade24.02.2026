@@ -1,26 +1,10 @@
 import React from 'react';
-import { 
-  Container, 
-  Typography, 
-  TextField, 
-  Stack, 
-  Button, 
-  MenuItem, 
-  FormControl, 
-  InputLabel, 
-  Select, 
-  Box, 
-  Divider,
-  List, 
-  ListItem, 
-  ListItemText, 
-  Paper,
-  Grid
-} from '@mui/material';
+import { Container, Typography, TextField, Stack, Button, MenuItem, FormControl, 
+  InputLabel, Select, Box, Divider,List, ListItem, ListItemText, Paper, Grid } from '@mui/material';
 
 // Importações dos arquivos JSON internos
-import { categoriasDisponiveis } from '/Dados/data';
-import { produtosIniciais } from './Dados/dadosProdutos';
+import { produtosIniciais } from '../Dados/DadosProdutos';
+import { categoriasDisponiveis } from '../Dados/data';
 
 function CadastrodeProdutos() {
   // 1. ESTADOS (Memória)
