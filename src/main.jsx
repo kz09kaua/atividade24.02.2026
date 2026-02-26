@@ -10,15 +10,20 @@ import ExemploEffect from './Componentes/ExemploEffect'
 import ContadorEstoque from './Componentes/ContadorEstoque'
 import CronometroSimples from './Componentes/CronometroSimples'
 import MonitorEstoque from './Componentes/MonitorEstoque'
+import SweetAula from './Componentes/SweetAula'
+import CadastrarPessoas from './Componentes/PessoasCadastrar'
+
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <Quantidade />
+    <SweetAula />
+    <Quantidade />
     <FormCadastro />
     <FormPreferencias />
     <FormConfiguracoes />
     <CadastrodeProdutos />
+    <CadastrarPessoas />
     <ExemploUseState />
     <ExemploEffect />
     <ContadorEstoque />
