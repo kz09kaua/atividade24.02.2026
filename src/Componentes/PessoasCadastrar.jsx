@@ -3,8 +3,8 @@ import { Container, Typography, TextField, Stack, Button, MenuItem, FormControl,
   InputLabel, Select, Box, Divider,List, ListItem, ListItemText, Paper, Grid } from '@mui/material';
 
 
-import { produtosIniciais } from '../Dados/DadosProdutos';
-import { categoriasDisponiveis } from '../Dados/data';
+import { produtosIniciais } from '../Dados/dadosPessoas';
+import { categoriasDisponiveis } from '../Dados/data2';
 
 function CadastrarPessoas() {
  
